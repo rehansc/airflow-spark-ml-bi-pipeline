@@ -1,16 +1,15 @@
-# 🚀 Airflow + Spark + ML + Power BI Pipeline
+# Airflow + Spark + ML + Power BI Pipeline
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates an **end-to-end data pipeline** combining:
 - **Data Engineering**: Orchestration with Apache Airflow, scalable data processing with Apache Spark.  
 - **Machine Learning**: Automated model training and evaluation.  
 - **Business Intelligence**: Interactive dashboards with Power BI.  
 
 Designed as a **portfolio showcase** for Data Engineering + ML + BI skills.
-
 ---
 
-## 🏗️ Architecture
+## Architecture
 ```mermaid
 flowchart LR
     A[Raw CSV Data] -->|Ingest| B[Airflow DAG]
@@ -34,28 +33,41 @@ flowchart LR
     end
 ```
 ---
-##⚡ Features
+## Features
 
 Data Ingestion
+- Load raw CSVs into the pipeline.
 
-Load raw CSVs into the pipeline.
-
-Process data with Pandas or Apache Spark.
+- Process data with Pandas or Apache Spark.
 
 Machine Learning
 
-Train models (e.g., Logistic Regression).
+- Train models (e.g., Logistic Regression).
 
-Store metrics and results in Postgres.
+- Store metrics and results in Postgres.
 
 Data Warehouse
 
-Postgres stores processed data + ML outputs.
+- Postgres stores processed data + ML outputs.
 
 BI Dashboard
 
-Power BI connects to Postgres for insights.
+- Power BI connects to Postgres for insights.
 
 Orchestration
 
-Airflow manages ETL, Spark jobs, and ML workflows.
+- Airflow manages ETL, Spark jobs, and ML workflows.
+---
+## Tech Stack
+
+- Apache Airflow (orchestration)
+
+- Apache Spark (big data processing)
+
+- Postgres (data warehouse)
+
+- scikit-learn (ML models)
+
+- Power BI (dashboards)
+
+- Docker Compose (deployment)
