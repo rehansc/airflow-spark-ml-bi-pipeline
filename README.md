@@ -32,3 +32,29 @@ flowchart LR
         E
         F
     end
+```
+##⚡ Features
+
+Data Ingestion
+
+Load raw CSVs into the pipeline.
+
+Process data with Pandas or Apache Spark.
+
+Machine Learning
+
+Train models (e.g., Logistic Regression).
+
+Store metrics and results in Postgres.
+
+Data Warehouse
+
+Postgres stores processed data + ML outputs.
+
+BI Dashboard
+
+Power BI connects to Postgres for insights.
+
+Orchestration
+
+Airflow manages ETL, Spark jobs, and ML workflows.
