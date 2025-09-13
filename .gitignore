@@ -1,0 +1,17 @@
+# Airflow + Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow runtime
+logs/
+plugins/
+airflow_home/
+
+# Spark outputs
+spark/output/
+
+# Virtualenvs
+.venv/
+env/
