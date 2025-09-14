@@ -73,6 +73,15 @@ Orchestration
 - Docker Compose (deployment)
 
 ---
+## Data
+
+- This project uses the Instacart Online Grocery Shopping Dataset 2017
+
+- spark/data/instacart_sample.csv → A small demo sample (included in repo) so the pipeline can run out-of-the-box.
+
+- Full dataset (3+ million grocery orders) can be downloaded separately from Instacart
+
+---
 Setup Instructions
 
 1. Clone repo:
